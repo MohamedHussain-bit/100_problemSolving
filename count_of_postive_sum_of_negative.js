@@ -18,3 +18,15 @@ function count_of_postive_sum_of_negative(inbut){
 }
 
 console.log(count_of_postive_sum_of_negative([1,2,3,4,5,6,-7,-8,-9]))
+
+// todo : => Anather solution
+
+function count_of_postive_sum_of_negative2(inbut){
+    let positiveArray2 = inbut.filter((x) => x > 0 ).length
+    let negativeNum2 = inbut.filter((x) => x < 0)
+    .reduce((acc , curent) => acc + curent , 0)
+    return [positiveArray2 ,negativeNum2]
+
+}
+
+console.log(count_of_postive_sum_of_negative2([1,2,3,4,5,6,-7,-8,-9]))
