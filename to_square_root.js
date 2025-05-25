@@ -17,4 +17,13 @@ function squareSquareRoot(array){
 
 console.log(squareSquareRoot([1,2,3,4,5,9]))
 
+// todo : => Anather solution
+
+function squareSquareRoot2(array){
+    return array.map((number) => Number.isInteger(Math.sqrt(number)) ? 
+    Math.sqrt(number) : number * number)
+}
+
+console.log(squareSquareRoot2([1,2,3,4,5,9]))
+
 
