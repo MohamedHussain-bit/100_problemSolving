@@ -13,3 +13,11 @@ function invertNum(array){
 
 console.log(invertNum([-1 , 2 , 3 , 4 , 5 , -6 ]))
 
+// todo : => Anather solution
+
+function invertNum2(array){
+    return array.map((x) => x * -1)
+}
+
+console.log(invertNum2([-1 , 2 , 3 , 4 , 5 , -6 ]))
+
