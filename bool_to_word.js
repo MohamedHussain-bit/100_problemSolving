@@ -9,3 +9,11 @@ function boolToWord(bool){
 }
 
 console.log(boolToWord(true))
+
+// todo : => Anather solution
+
+function boolToWord2(bool){
+    return bool ? "Yes" : "No"
+}
+
+console.log(boolToWord2(true))
