@@ -5,3 +5,11 @@ function twoDecimalPlaces(n){
 }
 
 console.log(twoDecimalPlaces(5.56789))
+
+// todo : => Anather solution
+
+function twoDecimalPlaces2(n){
+        return Math.round(n * 100) / 100
+}
+
+console.log(twoDecimalPlaces2(5.56789))
