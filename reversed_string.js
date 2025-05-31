@@ -14,3 +14,12 @@ function reversed(string){
 
 console.log(reversed("Hello"))
 
+// todo : => Anather solution
+
+function reversed2(string){
+    return string.split("").reverse().join("")
+
+}
+
+console.log(reversed2("Hello"))
+
