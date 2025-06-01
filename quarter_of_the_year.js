@@ -6,3 +6,12 @@ function ofQuaeter(month){
 }
 
 console.log(ofQuaeter(10))
+
+// todo : => Anather solution
+
+function ofQuaeter2(month){
+    return Math.ceil(month / 3)  
+
+}
+
+console.log(ofQuaeter2(10))
